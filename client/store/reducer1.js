@@ -4,7 +4,7 @@ function reducer1 (stateKey = {}, action) {
     //   case "actionTypeName": return {
     //       stateKey: logicPlaceholder
     //   }
-      default: return state
+      default: return stateKey
     }
   }
   
